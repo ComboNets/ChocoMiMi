@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoMimi - Cafetería & Eventos</title>
+    <meta name="description" content="ChocoMimi - Cafetería especializada en tortas, eventos y menú del día en Paraguay">
+    <script src="assets/js/config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="logo-box">
+                <a href="#home" class="logo" aria-label="ChocoMimi - Inicio">
+                    <span class="logo-name">ChocoMimi</span>
+                    <span class="logo-tagline">Cafetería & Eventos</span>
+                </a>
+            </div>
+            
+            <nav class="nav-menu" id="nav-menu"></nav>
+
+            <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="home">
+            <div class="hero-slider" id="hero-slider"></div>
+            <button class="slider-btn prev" aria-label="Anterior">&lt;</button>
+            <button class="slider-btn next" aria-label="Siguiente">&gt;</button>
+            <div class="slider-indicators" id="slider-indicators"></div>
+        </section>
+
+        <section class="welcome-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Bienvenido a ChocoMimi</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="welcome-grid" id="welcome-grid"></div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-grid" id="about-grid"></div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="menu">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestro Menú</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Descubre nuestras deliciosas opciones</p>
+                </div>
+                <div class="menu-grid" id="menu-grid"></div>
+            </div>
+        </section>
+
+        <section class="events-section" id="events">
+            <div class="container">
+                <div class="events-content" id="events-content"></div>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nuestros Servicios</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="services-grid" id="services-grid"></div>
+            </div>
+        </section>
+
+        <section class="location-section" id="location">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Dónde Encontrarnos</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="location-content" id="location-content"></div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Contáctanos</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="contact-grid" id="contact-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content" id="footer-content"></div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Volver arriba">↑</button>
+
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/content.js"></script>
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
