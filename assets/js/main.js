@@ -69,5 +69,5 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('touch-device');
     }
     
-    console.log('ChocoMimi website loaded successfully! ☕🍰');
+    console.log('ChocoMimi website loaded successfully!');
 });

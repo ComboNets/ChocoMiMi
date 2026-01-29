@@ -36,17 +36,17 @@ const SITE_CONFIG = {
 
     welcome: [
         {
-            icon: '☕',
+            icon: 'local_cafe',
             title: 'Cafetería',
             description: 'Café de calidad y repostería artesanal preparada con amor'
         },
         {
-            icon: '🎉',
+            icon: 'celebration',
             title: 'Eventos',
             description: 'El lugar perfecto para tus celebraciones especiales'
         },
         {
-            icon: '🍰',
+            icon: 'cake',
             title: 'Tortas',
             description: 'Tortas personalizadas para cada ocasión'
         }
@@ -72,14 +72,14 @@ const SITE_CONFIG = {
         },
         {
             image: 'https://ugc.production.linktr.ee/bfd944c6-bba7-4582-b01d-479bae50a033_IMG-8695.jpeg',
-            title: 'Menú Semanal 🍽️',
+            title: 'Menú Semanal <span class="material-icons">restaurant_menu</span>',
             badge: 'Popular',
             description: 'Delicioso almuerzo diario con opciones variadas y frescas',
             link: 'https://drive.google.com/file/d/1JdzbLVd9apbBo1bcwoP0smZrUKFDDFq0/view?usp=drivesdk'
         },
         {
             image: 'https://ugc.production.linktr.ee/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
-            title: 'Tortas por Pedido 🍰',
+            title: 'Tortas por Pedido <span class="material-icons">cake</span>',
             badge: null,
             description: 'Tortas personalizadas para cumpleaños, bodas y celebraciones especiales',
             link: 'https://drive.google.com/file/d/1IFoTWQ8GZj--uIvL3enjiwZVJweY53Pn/view?usp=drivesdk'
@@ -103,36 +103,36 @@ const SITE_CONFIG = {
 
     services: [
         {
-            icon: '🥐',
+            icon: 'bakery_dining',
             image: 'https://ugc.production.linktr.ee/02d7512e-13ee-4c7f-bf53-fe2be2907093_IMG-3487.jpeg',
             title: 'Dulces & Salados',
             description: 'Variedad de bocaditos dulces y salados para tus eventos',
             link: 'https://drive.google.com/file/d/12PcZ-qbgyNuTjDcoenxdrLQ8t4JcYSzv/view?usp=drivesdk'
         },
         {
-            icon: '🍱',
+            icon: 'dinner_dining',
             image: 'https://ugc.production.linktr.ee/b4406bc1-a4b1-42f9-8923-0d5accd898cd_IMG-3988.jpeg',
             title: 'Buffet Autoservice',
             description: 'Buffet completo en nuestra ubicación para tus eventos',
             link: 'https://drive.google.com/file/d/1mTAwkUJtGfXkef97G0Zg3hDEyIwf86tT/view?usp=drivesdk'
         },
         {
-            icon: '📅',
+            icon: 'event',
             title: 'Reservas',
             description: 'Reserva tu mesa o espacio para eventos con anticipación'
         },
         {
-            icon: '🚗',
+            icon: 'directions_car',
             title: 'Para Llevar',
             description: 'Todas nuestras delicias disponibles para llevar'
         },
         {
-            icon: '🎂',
+            icon: 'cake',
             title: 'Pedidos Especiales',
             description: 'Tortas y productos personalizados bajo pedido'
         },
         {
-            icon: '☕',
+            icon: 'local_cafe',
             title: 'Café Premium',
             description: 'Variedades de café de alta calidad'
         }

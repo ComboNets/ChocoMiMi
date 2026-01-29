@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'welcome-card';
         card.innerHTML = `
-            <div class="card-icon">${item.icon}</div>
+            <div class="card-icon"><span class="material-icons">${item.icon}</span></div>
             <h3>${item.title}</h3>
             <p>${item.description}</p>
         `;
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const serviceItem = document.createElement('div');
         serviceItem.className = 'service-item';
         serviceItem.innerHTML = `
-            <div class="service-icon">${service.icon}</div>
+            <div class="service-icon"><span class="material-icons">${service.icon}</span></div>
             <h3>${service.title}</h3>
             <p>${service.description}</p>
             ${service.link ? `<a href="${service.link}" target="_blank" rel="noopener noreferrer" class="service-link">Ver más →</a>` : ''}
