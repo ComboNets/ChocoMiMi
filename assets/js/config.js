@@ -15,19 +15,19 @@ const SITE_CONFIG = {
 
     hero: [
         {
-            image: 'https://ugc.production.linktr.ee/f9adbd51-fd49-47f1-b38d-25492f0fc104_IMG-6402.jpeg',
+            image: 'images/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
             title: 'Bienvenido a ChocoMimi',
             subtitle: 'Donde cada momento se convierte en un dulce recuerdo',
             cta: { text: 'Ver Menú', href: '#menu' }
         },
         {
-            image: 'https://ugc.production.linktr.ee/8af9289d-38fb-48f6-8584-037970147b01_IMG-1834.jpeg',
+            image: 'images/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
             title: 'Nuestra Carta 2026',
             subtitle: 'Sabores únicos y deliciosas opciones para todos',
             cta: { text: 'Ver Carta', href: '#menu' }
         },
         {
-            image: 'https://ugc.production.linktr.ee/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
+            image: 'images/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
             title: 'Tortas Especiales',
             subtitle: 'Creaciones personalizadas para tus celebraciones',
             cta: { text: 'Hacer Pedido', href: '#contact' }
@@ -72,7 +72,7 @@ const SITE_CONFIG = {
         },
         {
             image: 'https://ugc.production.linktr.ee/bfd944c6-bba7-4582-b01d-479bae50a033_IMG-8695.jpeg',
-            title: 'Menú del Día 🍽️',
+            title: 'Menú Semanal 🍽️',
             badge: 'Popular',
             description: 'Delicioso almuerzo diario con opciones variadas y frescas',
             link: 'https://drive.google.com/file/d/1JdzbLVd9apbBo1bcwoP0smZrUKFDDFq0/view?usp=drivesdk'
