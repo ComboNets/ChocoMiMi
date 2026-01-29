@@ -15,19 +15,19 @@ const SITE_CONFIG = {
 
     hero: [
         {
-            image: 'images/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
+            image: 'images/Cake.jpeg',
             title: 'Bienvenido a ChocoMimi',
             subtitle: 'Donde cada momento se convierte en un dulce recuerdo',
             cta: { text: 'Ver Menú', href: '#menu' }
         },
         {
-            image: 'images/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
+            image: 'images/Cake.jpeg',
             title: 'Nuestra Carta 2026',
             subtitle: 'Sabores únicos y deliciosas opciones para todos',
             cta: { text: 'Ver Carta', href: '#menu' }
         },
         {
-            image: 'images/35d7d697-2b80-404d-855d-bfb44aea3fb3_IMG-4167.jpeg',
+            image: 'images/Cake.jpeg',
             title: 'Tortas Especiales',
             subtitle: 'Creaciones personalizadas para tus celebraciones',
             cta: { text: 'Hacer Pedido', href: '#contact' }
