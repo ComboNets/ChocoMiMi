@@ -5,23 +5,31 @@
 }
 
 :root {
-    --primary-color: #FF1493;
-    --primary-dark: #C71585;
-    --accent-color: #FFD700;
-    --black: #000000;
-    --dark-gray: #0a0a0a;
-    --medium-gray: #1a1a1a;
-    --light-gray: #333333;
-    --text-dark: #ffffff;
-    --text-medium: #cccccc;
-    --text-light: #999999;
-    --bg-wood: #000000;
-    --bg-light: #0a0a0a;
-    --bg-white: #1a1a1a;
-    --border-color: #333333;
-    --shadow-sm: 0 2px 8px rgba(255, 255, 255, 0.05);
-    --shadow-md: 0 4px 12px rgba(255, 255, 255, 0.08);
-    --shadow-lg: 0 10px 25px rgba(255, 255, 255, 0.1);
+    /* Rustic / vintage warm palette */
+    --primary-color: #8b5a2b;      /* warm saddle brown */
+    --primary-dark: #5c3b1e;       /* deeper brown */
+    --accent-color: #d2a679;       /* muted gold / caramel */
+
+    --black: #1b130c;              /* very dark brown instead of pure black */
+    --dark-gray: #241710;          /* deep chocolate */
+    --medium-gray: #3a2618;        /* medium brown */
+    --light-gray: #5a3a25;         /* lighter brown */
+
+    --text-dark: #f8f1e7;          /* warm off‑white for dark backgrounds */
+    --text-medium: #e0d0c0;        /* softer beige */
+    --text-light: #c4ac96;         /* light tan */
+
+    --bg-wood: #2a1a10;            /* wood‑like background */
+    --bg-light: #342017;           /* warm dark background */
+    --bg-white: #423024;           /* used where a "white" base was before */
+
+    --border-color: #6b4b33;       /* brownish border */
+
+    /* Shadows now based on dark brown, not white glow */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.45);
+
     --transition: all 0.3s ease;
 }
 
