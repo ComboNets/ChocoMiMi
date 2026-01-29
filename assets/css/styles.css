@@ -715,8 +715,8 @@ a {
     box-shadow: var(--shadow-md);
 }
 
-.service-icon {
-    font-size: 3rem;
+ .service-icon {
+    font-size: 5.1rem; /* 70% larger than 3rem */
     margin-bottom: 1rem;
 }
 
